@@ -118,7 +118,7 @@ Interactive Filters:
 * Home Ownership: Borrowers are mostly Renters (\~18K) or with Mortgage (\~17K), fewer Own outright (\~3K).
 * Insight: Borrowers are largely working professionals with stable jobs but limited asset ownership, using loans for consumption and improvement rather than investment.
 
-## Example Business Questions and How to Answer Them with This Dashboard
+**Example Business Questions and How to Answer Them with This Dashboard**
 
 **1. Which states have the highest charge-off amounts?**  
   - Go to **Overview**  
