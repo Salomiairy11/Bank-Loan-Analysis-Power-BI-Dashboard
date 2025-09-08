@@ -13,6 +13,7 @@ Each dashboard is enhanced with dynamic filters that allow stakeholders to explo
 
 
 **Problem Statement**
+
 Banks handle thousands of loan applications every month, but raw loan data alone doesn’t provide the clarity needed to make business decisions. Stakeholders need a way to monitor loan performance, track repayment trends, and identify risks in the portfolio. Without a consolidated view, it is difficult to answer questions like:
 
 * How many loan applications were received, funded, and repaid?
@@ -23,7 +24,7 @@ Banks handle thousands of loan applications every month, but raw loan data alone
 The objective of this project was to build an interactive Bank Loan Analysis Dashboard in Power BI that consolidates KPIs and loan-related insights into a single view. The dashboard allows users to filter data across dimensions, monitor portfolio health, and make data-driven decisions regarding risk assessment, lending strategy, and customer profiling.
 
 
-**Features**
+**Dashboards, KPIs and Sidebar Filters**
 
 **1. Summary Dashboard**
 The Summary Dashboard provides a quick yet powerful overview of the bank’s lending performance through Key Performance Indicators (KPIs):
@@ -116,6 +117,29 @@ Interactive Filters:
 * Loan Purpose: Concentrated in Other, Home Improvement, Major Purchase, Small Business, and Wedding, showing where capital demand is highest.
 * Home Ownership: Borrowers are mostly Renters (\~18K) or with Mortgage (\~17K), fewer Own outright (\~3K).
 * Insight: Borrowers are largely working professionals with stable jobs but limited asset ownership, using loans for consumption and improvement rather than investment.
+
+## Example Business Questions and How to Answer Them with This Dashboard
+
+**1. Which states have the highest charge-off amounts?**  
+  - Go to **Overview**  
+  - Set **Measure = Total Funded Amount**  
+  - Set **Good vs Bad = Bad loans**  
+  - Filter **State = All**  
+  - Examine the **State map** or export the **state-level table**
+
+**2. Which loan purposes show the worst repayment rates?**  
+  - Go to **Overview**  
+  - Set **Measure = Total Loan Applications**  
+  - Set **Good vs Bad = Bad loans**  
+  - Look at the **Purpose bar chart** to see counts of bad loans by purpose
+
+**3. Find every charged-off car loan issued in November 2021 in State X.**  
+  - Go to **Details**  
+  - Filter **Purpose = Car**  
+  - Filter **Issue Date = November 2021**  
+  - Set **Good vs Bad = Bad Loans**  
+  - Filter **State = X**  
+  - The table will show loan IDs and amounts
 
 
 **Tools & Technologies**
