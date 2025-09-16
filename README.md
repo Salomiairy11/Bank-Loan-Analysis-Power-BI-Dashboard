@@ -48,7 +48,7 @@ Interactive Filters:
 
 **Business Value:** This dashboard equips executives with an instant health check of the lending portfolio, while filters allow drilling down into performance by geography, customer needs, and risk categories.
 
-[SUMMARY-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/SummaryPageOfBankAnalysisDashboard.PNG)
+![SUMMARY-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/SummaryPageOfBankAnalysisDashboard.PNG)
 
 
 **2. Overview Dashboard**
