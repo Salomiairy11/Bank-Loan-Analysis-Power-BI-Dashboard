@@ -11,6 +11,12 @@ The dashboard is divided into three modules:
 
 Each dashboard is enhanced with dynamic filters that allow stakeholders to explore data interactively by state of borrower, loan purpose, loan grade, loan performance (good vs. bad loans), and financial measures such as total loan applications, funded amounts, and received amounts.
 
+![SUMMARY-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/SummaryPageOfBankAnalysisDashboard.PNG)
+
+![OVERVIEW-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/OverviewPageOfBankAnalysisDashboard.PNG)
+
+![DETAILS-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/DetailsPageOfBankAnalysisDashboard.PNG)
+
 
 **Problem Statement**
 
@@ -48,8 +54,6 @@ Interactive Filters:
 
 **Business Value:** This dashboard equips executives with an instant health check of the lending portfolio, while filters allow drilling down into performance by geography, customer needs, and risk categories.
 
-![SUMMARY-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/SummaryPageOfBankAnalysisDashboard.PNG)
-
 
 **2. Overview Dashboard**
 The Overview Dashboard provides a multi-dimensional analysis of lending patterns and borrower demographics using a variety of visualizations:
@@ -68,8 +72,6 @@ Interactive Filters:
 
 **Business Value:** This dashboard allows managers to identify who is borrowing, why they are borrowing, where loans are concentrated, and how borrower attributes impact risk and performance.
 
-[OVERVIEW-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/OverviewPageOfBankAnalysisDashboard.PNG)
-
 
 **3. Details Dashboard**
 The Details Dashboard acts as a comprehensive drill-down interface for stakeholders who need granular visibility into the loan portfolio. It consolidates:
@@ -86,8 +88,6 @@ Interactive Filters:
 * Loan Grade.
 
 **Business Value:** This dashboard serves as a single source of truth for detailed loan records. Credit analysts, auditors, and portfolio managers can slice and filter data to investigate repayment trends, borrower risk profiles, and potential default patterns.
-
-[DETAILS-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/DetailsPageOfBankAnalysisDashboard.PNG)
 
 
 **Key Insights Delivered**
