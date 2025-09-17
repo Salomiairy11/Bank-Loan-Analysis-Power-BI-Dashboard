@@ -18,6 +18,12 @@ Each dashboard is enhanced with dynamic filters that allow stakeholders to explo
 ![DETAILS-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/DetailsPageOfBankAnalysisDashboard.PNG)
 
 
+**Tools & Technologies**
+
+* Power BI – Designed interactive dashboards with slicers/filters for state, loan purpose, and loan grade and built DAX measures to calculate KPIs, applied data modeling techniques, and calculated columns for better drill-down and aggregation across visuals.
+* SQL – Queried the raw loan dataset to extract and validate metrics before visualization. Used SQL for data cleaning, aggregation, and tallying key metrics. Ensured that the numbers displayed in Power BI visuals matched the backend calculations.
+* Finance Domain Knowledge – Applied understanding of loan performance KPIs, which helped frame dashboards not just as visualizations but as tools for business insight, such as distinguishing good vs bad loans, identifying repayment risks, and tracking portfolio health across regions and borrower profiles.
+  
 **Problem Statement**
 
 Banks handle thousands of loan applications every month, but raw loan data alone doesn’t provide the clarity needed to make business decisions. Stakeholders need a way to monitor loan performance, track repayment trends, and identify risks in the portfolio. Without a consolidated view, it is difficult to answer questions like:
@@ -117,38 +123,4 @@ Interactive Filters:
 * Loan Purpose: Concentrated in Other, Home Improvement, Major Purchase, Small Business, and Wedding, showing where capital demand is highest.
 * Home Ownership: Borrowers are mostly Renters (\~18K) or with Mortgage (\~17K), fewer Own outright (\~3K).
 * Insight: Borrowers are largely working professionals with stable jobs but limited asset ownership, using loans for consumption and improvement rather than investment.
-
-**Example Business Questions and How to Answer Them with This Dashboard**
-
-**1. Which states have the highest charge-off amounts?**  
-  - Go to **Overview**  
-  - Set **Measure = Total Funded Amount**  
-  - Set **Good vs Bad = Bad loans**  
-  - Filter **State = All**  
-  - Examine the **State map** or export the **state-level table**
-
-**2. Which loan purposes show the worst repayment rates?**  
-  - Go to **Overview**  
-  - Set **Measure = Total Loan Applications**  
-  - Set **Good vs Bad = Bad loans**  
-  - Look at the **Purpose bar chart** to see counts of bad loans by purpose
-
-**3. Find every charged-off car loan issued in November 2021 in State X.**  
-  - Go to **Details**  
-  - Filter **Purpose = Car**  
-  - Filter **Issue Date = November 2021**  
-  - Set **Good vs Bad = Bad Loans**  
-  - Filter **State = X**  
-  - The table will show loan IDs and amounts
-
-
-**Tools & Technologies**
-
-* Power BI – Designed interactive dashboards with slicers/filters for state, loan purpose, and loan grade. Built DAX measures to calculate KPIs and applied data modeling techniques and calculated columns for better drill-down and aggregation across visuals.
-* SQL – Queried the raw loan dataset to extract and validate metrics before visualization. Used SQL for data cleaning, aggregation, and tallying key metrics. Ensured that the numbers displayed in Power BI visuals matched the backend calculations.
-* Finance Domain Knowledge – Applied understanding of loan performance KPIs which helped frame dashboards not just as visualizations but as tools for business insight, such as distinguishing good vs bad loans, identifying repayment risks, and tracking portfolio health across regions and borrower profiles.
-
-
-**Final Outcome**
-This project demonstrates how business intelligence tools can transform raw financial data into actionable insights. The dashboards empower stakeholders to make data-driven decisions on credit strategy, risk management, and operational efficiency, while providing both high-level summaries and granular loan details.
 
