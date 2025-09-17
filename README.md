@@ -15,7 +15,7 @@ The dashboard is divided into three modules:
 
 ![DETAILS-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/DetailsPageOfBankAnalysisDashboard.PNG)
 
-* **TO CHECK THE VIDEO DEMO GO [here](https://salomiairy11.github.io/personal-portfolio/#/projects) ** 
+**TO CHECK THE VIDEO DEMO GO [here](https://salomiairy11.github.io/personal-portfolio/#/projects)** 
 
 **Tools & Technologies**
 
