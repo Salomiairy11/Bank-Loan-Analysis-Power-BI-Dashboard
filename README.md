@@ -9,13 +9,14 @@ The dashboard is divided into three modules:
 * **Overview Dashboard** – Trend, regional, and categorical analysis of loans.
 * **Details Dashboard** – A deep dive into loan and borrower-level data.
 
+**TO CHECK THE VIDEO DEMO GO [here](https://salomiairy11.github.io/personal-portfolio/#/projects)** 
+
 ![SUMMARY-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/SummaryPageOfBankAnalysisDashboard.PNG)
 
 ![OVERVIEW-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/OverviewPageOfBankAnalysisDashboard.PNG)
 
 ![DETAILS-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/DetailsPageOfBankAnalysisDashboard.PNG)
 
-**TO CHECK THE VIDEO DEMO GO [here](https://salomiairy11.github.io/personal-portfolio/#/projects)** 
 
 **Tools & Technologies**
 
