@@ -1,4 +1,4 @@
-# Bank-Loan-Analysis-Power-BI-Dashboard (Power BI Project – Finance Domain)
+# Bank-Loan-Analysis-Power-BI-Dashboard
 
 **Project Overview:**
 The Bank Loan Analysis Dashboard is a comprehensive Power BI project designed to help financial institutions track, analyze, and optimize their loan portfolio. By consolidating key metrics and visual insights, this project enables decision-makers to monitor lending activities, borrower characteristics, loan performance, and repayment behaviors in an intuitive and interactive manner.
@@ -9,7 +9,7 @@ The dashboard is divided into three modules:
 * **Overview Dashboard** – Trend, regional, and categorical analysis of loans.
 * **Details Dashboard** – A deep dive into loan and borrower-level data.
 
-**TO CHECK THE VIDEO DEMO GO [here](https://salomiairy11.github.io/personal-portfolio/#/projects)** 
+# TO CHECK THE VIDEO DEMO GO [here](https://salomiairy11.github.io/personal-portfolio/#/projects) 
 
 ![SUMMARY-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/SummaryPageOfBankAnalysisDashboard.PNG)
 
