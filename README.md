@@ -9,30 +9,23 @@ The dashboard is divided into three modules:
 * **Overview Dashboard** – Trend, regional, and categorical analysis of loans.
 * **Details Dashboard** – A deep dive into loan and borrower-level data.
 
-Each dashboard is enhanced with dynamic filters that allow stakeholders to explore data interactively by state of borrower, loan purpose, loan grade, loan performance (good vs. bad loans), and financial measures such as total loan applications, funded amounts, and received amounts.
-
 ![SUMMARY-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/SummaryPageOfBankAnalysisDashboard.PNG)
 
 ![OVERVIEW-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/OverviewPageOfBankAnalysisDashboard.PNG)
 
 ![DETAILS-DASHBOARD](https://github.com/Salomiairy11/Bank-Loan-Analysis-Power-BI-Dashboard/blob/main/DetailsPageOfBankAnalysisDashboard.PNG)
 
+* **TO CHECK THE VIDEO DEMO GO [here](https://salomiairy11.github.io/personal-portfolio/#/projects) ** 
 
 **Tools & Technologies**
 
-* Power BI – Designed interactive dashboards with slicers/filters for state, loan purpose, and loan grade and built DAX measures to calculate KPIs, applied data modeling techniques, and calculated columns for better drill-down and aggregation across visuals.
-* SQL – Queried the raw loan dataset to extract and validate metrics before visualization. Used SQL for data cleaning, aggregation, and tallying key metrics. Ensured that the numbers displayed in Power BI visuals matched the backend calculations.
-* Finance Domain Knowledge – Applied understanding of loan performance KPIs, which helped frame dashboards not just as visualizations but as tools for business insight, such as distinguishing good vs bad loans, identifying repayment risks, and tracking portfolio health across regions and borrower profiles.
+* Power BI – Built interactive dashboards with slicers/filters and DAX measures, applied data modeling and calculated columns for drill-downs and KPI aggregation.
+* SQL – Queried, cleaned, and aggregated raw loan data to ensure metrics matched backend calculations for accurate visualizations.
+* Finance Domain Knowledge – Interpreted loan KPIs to identify repayment risks, portfolio health, and distinguish good vs. bad loans for actionable insights.
   
 **Problem Statement**
 
-Banks handle thousands of loan applications every month, but raw loan data alone doesn’t provide the clarity needed to make business decisions. Stakeholders need a way to monitor loan performance, track repayment trends, and identify risks in the portfolio. Without a consolidated view, it is difficult to answer questions like:
-
-* How many loan applications were received, funded, and repaid?
-* What proportion of loans are “good” (fully paid/current) versus “bad” (charged off)?
-* Which borrower segments (by state, purpose, loan grade, employment length, or home ownership) are more likely to default?
-* What regional, seasonal, or borrower-related patterns affect loan disbursements and repayments?
-
+Banks handle thousands of loan applications every month, but raw loan data alone doesn’t provide the clarity needed to make business decisions. Stakeholders need a way to monitor loan performance, track repayment trends, and identify risks in the portfolio. 
 The objective of this project was to build an interactive Bank Loan Analysis Dashboard in Power BI that consolidates KPIs and loan-related insights into a single view. The dashboard allows users to filter data across dimensions, monitor portfolio health, and make data-driven decisions regarding risk assessment, lending strategy, and customer profiling.
 
 
